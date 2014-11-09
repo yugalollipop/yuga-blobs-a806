@@ -174,6 +174,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libvirtual.so:system/lib/libvirtual.so \
     vendor/sony/yuga_blobs/system/lib/modules/radio-iris-transport.ko:system/lib/modules/radio-iris-transport.ko \
     vendor/sony/yuga_blobs/system/lib/modules/wlan.ko:system/lib/modules/wlan.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/reset_modem.ko:system/lib/modules/reset_modem.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/msm-buspm-dev.ko:system/lib/modules/msm-buspm-dev.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/adsprpc.ko:system/lib/modules/adsprpc.ko \
+    vendor/sony/yuga_blobs/system/lib/modules/gspca_main.ko:system/lib/modules/gspca_main.ko \
     vendor/sony/yuga_blobs/system/vendor/camera/KMO08BN0_IMX111.dat:system/vendor/camera/KMO08BN0_IMX111.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0.dat:system/vendor/camera/LGI02BN0.dat \
     vendor/sony/yuga_blobs/system/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
