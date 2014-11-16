@@ -115,7 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/yuga_blobs/system/lib/libgpsutils.so:system/lib/libgpsutils.so \
+    vendor/sony/yuga_blobs/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/yuga_blobs/system/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/yuga_blobs/system/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
