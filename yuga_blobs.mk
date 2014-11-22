@@ -1,18 +1,25 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/bin/efsks:system/bin/efsks \
+    vendor/sony/yuga_blobs/system/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/sony/yuga_blobs/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/yuga_blobs/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/yuga_blobs/system/bin/ks:system/bin/ks \
+    vendor/sony/yuga_blobs/system/bin/location-mq:system/bin/location-mq \
+    vendor/sony/yuga_blobs/system/bin/lowi-server:system/bin/lowi-server \
     vendor/sony/yuga_blobs/system/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/yuga_blobs/system/bin/qcks:system/bin/qcks \
     vendor/sony/yuga_blobs/system/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/yuga_blobs/system/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/yuga_blobs/system/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/yuga_blobs/system/bin/quipc_igsn:system/bin/quipc_igsn \
+    vendor/sony/yuga_blobs/system/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/yuga_blobs/system/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/yuga_blobs/system/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/yuga_blobs/system/bin/tad_static:system/bin/tad_static \
     vendor/sony/yuga_blobs/system/bin/taimport:system/bin/taimport \
     vendor/sony/yuga_blobs/system/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/yuga_blobs/system/bin/ta_qmi_client:system/bin/ta_qmi_client \
+    vendor/sony/yuga_blobs/system/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/sony/yuga_blobs/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -93,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/sony/yuga_blobs/system/lib/hw/camera.sony.so:system/lib/hw/camera.sony.so \
     vendor/sony/yuga_blobs/system/lib/hw/copybit.msm8960.so:system/lib/hw/copybit.msm8960.so \
-    vendor/sony/yuga_blobs/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/yuga_blobs/system/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/sony/yuga_blobs/system/lib/libadsprpc.so:system/lib/libadsprpc.so \
     vendor/sony/yuga_blobs/system/lib/libals.so:system/lib/libals.so \
@@ -123,9 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/yuga_blobs/system/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/yuga_blobs/system/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/yuga_blobs/system/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/sony/yuga_blobs/system/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/sony/yuga_blobs/system/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/yuga_blobs/system/lib/libmllite.so:system/lib/libmllite.so \
