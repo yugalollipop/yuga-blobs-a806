@@ -1,25 +1,18 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/bin/efsks:system/bin/efsks \
-    vendor/sony/yuga_blobs/system/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/sony/yuga_blobs/system/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/yuga_blobs/system/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/sony/yuga_blobs/system/bin/ks:system/bin/ks \
-    vendor/sony/yuga_blobs/system/bin/location-mq:system/bin/location-mq \
-    vendor/sony/yuga_blobs/system/bin/lowi-server:system/bin/lowi-server \
     vendor/sony/yuga_blobs/system/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/yuga_blobs/system/bin/qcks:system/bin/qcks \
     vendor/sony/yuga_blobs/system/bin/qmiproxy:system/bin/qmiproxy \
     vendor/sony/yuga_blobs/system/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/yuga_blobs/system/bin/qseecomd:system/bin/qseecomd \
-    vendor/sony/yuga_blobs/system/bin/quipc_igsn:system/bin/quipc_igsn \
-    vendor/sony/yuga_blobs/system/bin/quipc_main:system/bin/quipc_main \
     vendor/sony/yuga_blobs/system/bin/rmt_storage:system/bin/rmt_storage \
     vendor/sony/yuga_blobs/system/bin/ta2bin:system/bin/ta2bin \
     vendor/sony/yuga_blobs/system/bin/tad_static:system/bin/tad_static \
     vendor/sony/yuga_blobs/system/bin/taimport:system/bin/taimport \
     vendor/sony/yuga_blobs/system/bin/ta_param_loader:system/bin/ta_param_loader \
     vendor/sony/yuga_blobs/system/bin/ta_qmi_client:system/bin/ta_qmi_client \
-    vendor/sony/yuga_blobs/system/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/sony/yuga_blobs/system/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/sony/yuga_blobs/system/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -121,13 +114,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/sony/yuga_blobs/system/lib/libface.so:system/lib/libface.so \
     vendor/sony/yuga_blobs/system/lib/libgemini.so:system/lib/libgemini.so \
-    vendor/sony/yuga_blobs/system/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/sony/yuga_blobs/system/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/yuga_blobs/system/lib/libidl.so:system/lib/libidl.so \
     vendor/sony/yuga_blobs/system/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/sony/yuga_blobs/system/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/sony/yuga_blobs/system/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
-    vendor/sony/yuga_blobs/system/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/yuga_blobs/system/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/sony/yuga_blobs/system/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/yuga_blobs/system/lib/libmiscta.so:system/lib/libmiscta.so \
@@ -225,10 +216,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga_blobs/system/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/sony/yuga_blobs/system/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/sony/yuga_blobs/system/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
